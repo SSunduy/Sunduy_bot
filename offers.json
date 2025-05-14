@@ -1,21 +1,86 @@
 {
-  "loans": [
-    {
-      "title": "еКапуста — займ до 30 000 ₽",
-      "desc": "Оформление за 5 минут, без звонков и проверок.",
-      "link": "https://ekapusta.com?bonus=DKN-25A-A6E&utm_source=bonus&utm_medium=display"
-    }
-  ],
   "cards": [
     {
-      "title": "Дебетовая карта ВТБ",
-      "desc": "До 30% кешбэк, моментальное оформление.",
-      "link": "https://vtb.ru/l/4pt391k2"
+      "title": "ВТБ",
+      "link": "https://lig.su/7CB "
     },
     {
-      "title": "Дебетовая карта Тинькофф",
-      "desc": "Бесплатное обслуживание, кешбэк, открытие за 2 минуты.",
-      "link": "https://www.tbank.ru/baf/9e3OxIuyQoh"
+      "title": "МТС Банк - Дебетовая карта «Скидка везде»",
+      "link": "https://lig.su/7CI "
+    },
+    {
+      "title": "Ак Барс - карта «Ничего лишнего»",
+      "link": "https://lig.su/7CJ "
+    }
+  ],
+
+  "stickers": [
+    {
+      "title": "ВТБ — Платежный стикер",
+      "link": "https://lig.su/7CC "
+    }
+  ],
+
+  "deposits": [
+    {
+      "title": "МКБ",
+      "link": "https://lig.su/7CD "
+    }
+  ],
+
+  "loans": [
+    {
+      "title": "Свои люди",
+      "link": "https://lig.su/7CE "
+    },
+    {
+      "title": "Умные наличные",
+      "link": "https://lig.su/7CF "
+    },
+    {
+      "title": "Заём.ру",
+      "link": "https://lig.su/7CG "
+    },
+    {
+      "title": "Max.Credit",
+      "link": "https://lig.su/7CH "
+    },
+    {
+      "title": "Привет, сосед",
+      "link": "https://lig.su/7CN "
+    },
+    {
+      "title": "ФИНТЕРРА",
+      "link": "https://lig.su/7CO "
+    },
+    {
+      "title": "Турбозайм",
+      "link": "https://lig.su/7CP "
+    },
+    {
+      "title": "Деньга",
+      "link": "https://lig.su/7CQ "
+    }
+  ],
+
+  "auto_loans": [
+    {
+      "title": "ВТБ - Автокредит",
+      "link": "https://lig.su/7CK "
+    }
+  ],
+
+  "cash_loans": [
+    {
+      "title": "Альфа-Банк — Кредит наличными",
+      "link": "https://lig.su/7CL "
+    }
+  ],
+
+  "bank_jobs": [
+    {
+      "title": "Альфа-Банк — Специалист по доставке пластиковых карт (HR)",
+      "link": "https://lig.su/7CM "
     }
   ]
 }
