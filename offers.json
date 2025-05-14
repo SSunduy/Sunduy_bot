@@ -1,0 +1,21 @@
+{
+  "loans": [
+    {
+      "title": "еКапуста — займ до 30 000 ₽",
+      "desc": "Оформление за 5 минут, без звонков и проверок.",
+      "link": "https://ekapusta.com?bonus=DKN-25A-A6E&utm_source=bonus&utm_medium=display"
+    }
+  ],
+  "cards": [
+    {
+      "title": "Дебетовая карта ВТБ",
+      "desc": "До 30% кешбэк, моментальное оформление.",
+      "link": "https://vtb.ru/l/4pt391k2"
+    },
+    {
+      "title": "Дебетовая карта Тинькофф",
+      "desc": "Бесплатное обслуживание, кешбэк, открытие за 2 минуты.",
+      "link": "https://www.tbank.ru/baf/9e3OxIuyQoh"
+    }
+  ]
+}
