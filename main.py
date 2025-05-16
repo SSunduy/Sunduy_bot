@@ -1,10 +1,15 @@
+import os
 import json
 from aiogram import Bot, Dispatcher
 from aiogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from aiogram.filters import Command
 from aiogram.enums import ParseMode
+from dotenv import load_dotenv
 
-TOKEN = "8081332992:AAFyARu3WQjkvlXQU9PBKUNR3Sb1U7yl2Mk"
+# Загружаем переменные окружения из .env
+load_dotenv()
+TOKEN = os.getenv("BOT_TOKEN")
+ADMIN_ID = int(os.getenv("ADMIN_ID", "0"))  # Укажите ADMIN_ID в переменных среды
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
@@ -41,6 +46,15 @@ main_menu_kb = InlineKeyboardMarkup(inline_keyboard=[
 @dp.message(Command("menu"))
 async def cmd_start(message: Message):
     await message.answer("Привет! Я Ашак Бот. Выбери, что тебя интересует:", reply_markup=main_menu_kb)
+
+# Админка — только для одного пользователя
+@dp.message(Command("admin"))
+async def cmd_admin(message: Message):
+    if message.from_user.id != ADMIN_ID:
+        await message.answer("❌ У вас нет доступа к админке.")
+        return
+
+    await message.answer("🔐 Вы вошли в админку.\nДоступные команды:\n• /menu — главное меню")
 
 # Обработчик всех callback'ов
 @dp.callback_query()
